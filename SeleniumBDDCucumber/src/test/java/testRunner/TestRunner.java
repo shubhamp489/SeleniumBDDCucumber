@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 		dryRun = false,
 		
 		monochrome=true    //basically use for the display output in better way
-		,tags= "@P400"
+		,tags= "@B2"
 		
 		)
 
