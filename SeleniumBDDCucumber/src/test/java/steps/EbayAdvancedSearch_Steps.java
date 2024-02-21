@@ -19,6 +19,7 @@ public class EbayAdvancedSearch_Steps {
 	public void i_am_ebay_advanced_search_page() {
 		
 		driver.get("https://www.ebay.com/");
+		
 	}
 
 	@When("I Enter Search anything")
