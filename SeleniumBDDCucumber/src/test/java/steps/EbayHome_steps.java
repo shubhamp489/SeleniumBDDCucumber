@@ -1,7 +1,6 @@
 package steps;
 
-import static org.testng.Assert.fail;
-
+import static org.junit.Assert.fail;
 import java.util.List;
 
 import org.openqa.selenium.By;

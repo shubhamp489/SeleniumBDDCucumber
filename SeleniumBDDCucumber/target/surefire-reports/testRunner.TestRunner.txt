@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.661 s <<< FAILURE! - in testRunner.TestRunner
+Search an item in category(Ebay Home Page Scenarios)  Time elapsed: 0.134 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+
