@@ -10,9 +10,15 @@ public class EbayAdvancedSearch_Elements {
 	WebDriver driver;
 	@FindBy(xpath="") public WebElement ebayLogo;
 	
+//	
+//	public EbayAdvancedSearch_Elements(WebDriver driver) {
+//		this.driver = driver;
+//		PageFactory.initElements(driver,this);
+//	}
+	
 	
 	public EbayAdvancedSearch_Elements(WebDriver driver) {
-		this.driver = driver;
+		this.driver= driver;
 		PageFactory.initElements(driver,this);
 	}
 }
